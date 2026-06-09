@@ -24,6 +24,20 @@ The movement logic uses pathfinding to calculate the best route through the matr
 
 ![1](images/img.png)
 
+## How to Compile and Run
+
+From the root folder of the project, compile all Java files into the `bin` directory:
+
+```bash
+javac -d bin src/*.java
+```
+
+Then run the program using the Main class:
+
+
+```bash
+java -cp bin Main
+```
 ## Technologies Used
 
 - Java
